@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+</head>
+<body>
+    <section class="main-container">
+        <h1 class="header">My Text Editor</h1>
+        <div class="function-container">
+            <div class="btn-container">
+                <h2 id="bold" class="btn">B</h2>
+                <h2 id="italic" class="btn">I</h2>
+                <h2 id="underline" class="btn">U</h2>
+            </div>           
+            <div class="btn-container">
+                <h2 id="left-align" class="btn">Left Align</h2>
+                <h2 id="center-align" class="btn">Center Align</h2>
+                <h2 id="right-align" class="btn">Right Align</h2>
+            </div>
+            <div class="btn-container">
+                <input type="number" name="" id="font-size-change" value="16">
+                <div>
+                    <h2 id="text-transform">A</h2>
+                    <p id="text-lowercase">a</p>
+                </div>
+                <input type="color" name="" id="color">
+            </div>
+        </div>
+        <hr>
+        <div class="text-input">
+            <textarea  name="" id="text-area" cols="100" rows="10" placeholder="Write Here"></textarea>
+        </div>
+    </section>
+    <script src="function.js"></script>
+    <script src="text-area.js"></script>
+</body>
+</html>

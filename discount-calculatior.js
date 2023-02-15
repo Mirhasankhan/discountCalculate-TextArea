@@ -31,4 +31,5 @@ document.getElementById('btn-apply').addEventListener('click', function(){
     // const netPayableAmount = totalPrice * 0.7;
     document.getElementById('net-price').innerText = netPayableAmount;
     document.getElementById('coupon-code').value = '';
+    document.getElementById('btn-apply').setAttribute('disabled',true)
 })
